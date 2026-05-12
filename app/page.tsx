@@ -224,6 +224,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Ancla de valor */}
+      <section className="border-t border-line bg-ink text-surface">
+        <div className="max-w-wrap mx-auto px-6 py-14">
+          <p className="font-serif text-[clamp(1.5rem,3vw,2.2rem)] leading-snug max-w-[600px]">
+            Una landing de MX$8,000 te genera entre{" "}
+            <span className="text-white/50">MX$1,200 y MX$2,000</span> de comisión
+            por una sola referencia.
+          </p>
+          <p className="font-mono text-[11px] tracking-[0.1em] text-white/40 uppercase mt-5">
+            Comisión 15–25% · Sin inversión · Sin riesgo
+          </p>
+        </div>
+      </section>
+
+      {/* Prueba social */}
+      <section className="border-t border-line">
+        <div className="max-w-wrap mx-auto px-6 py-12">
+          <p className="font-mono text-[11px] tracking-[0.12em] uppercase text-ink3 mb-4">
+            ¿No conoces Byklai?
+          </p>
+          <p className="text-[16px] text-ink2 leading-relaxed max-w-[540px] mb-5 font-light">
+            Conoce el tipo de trabajo que refieres. Pekmex Is Life es un caso de estudio real
+            — ecosistema editorial construido completamente por byklai.
+          </p>
+          <a
+            href="https://pekmexlife.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-[12px] tracking-[0.06em] text-ink hover:text-ink3 transition-colors"
+          >
+            Ver proyecto → pekmexlife.com
+          </a>
+        </div>
+      </section>
+
       {/* Formulario */}
       <section id="registro" className="border-t border-line">
         <div className="max-w-[720px] mx-auto px-6 py-16 pb-20">
